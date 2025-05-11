@@ -1,6 +1,7 @@
 package it.epicode.progetto_settimanale_finale.auth;
 
-import com.BackendS7L5.auth.user.Role;
+
+import it.epicode.progetto_settimanale_finale.auth.user.Role;
 import lombok.Data;
 
 @Data

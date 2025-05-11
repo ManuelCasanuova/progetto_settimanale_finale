@@ -1,6 +1,7 @@
 package it.epicode.progetto_settimanale_finale.auth.user;
 
-import com.BackendS7L5.auth.JwtTokenUtil;
+
+import it.epicode.progetto_settimanale_finale.auth.JwtTokenUtil;
 import jakarta.persistence.EntityExistsException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

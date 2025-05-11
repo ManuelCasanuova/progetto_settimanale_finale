@@ -1,17 +1,19 @@
 package it.epicode.progetto_settimanale_finale.eventi;
 
+import it.epicode.progetto_settimanale_finale.auth.user.AppUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
-
-import java.nio.file.AccessDeniedException;
+import org.springframework.security.access.AccessDeniedException;
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/evento")
 public class EventoController {
+
+
     @Autowired
     private EventoRepository eventoRepository;
 

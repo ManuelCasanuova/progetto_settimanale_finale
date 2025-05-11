@@ -1,7 +1,8 @@
 package it.epicode.progetto_settimanale_finale.auth;
 
-import com.BackendS7L5.auth.user.AppUser;
-import com.BackendS7L5.auth.user.AppUserRepository;
+
+import it.epicode.progetto_settimanale_finale.auth.user.AppUser;
+import it.epicode.progetto_settimanale_finale.auth.user.AppUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

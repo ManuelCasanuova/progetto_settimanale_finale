@@ -1,6 +1,7 @@
 package it.epicode.progetto_settimanale_finale.auth;
 
-import com.BackendS7L5.auth.user.AppUserService;
+
+import it.epicode.progetto_settimanale_finale.auth.user.AppUserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

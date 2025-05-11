@@ -1,8 +1,9 @@
 package it.epicode.progetto_settimanale_finale.auth;
 
-import com.BackendS7L5.auth.user.AppUser;
-import com.BackendS7L5.auth.user.AppUserService;
-import com.BackendS7L5.auth.user.Role;
+
+import it.epicode.progetto_settimanale_finale.auth.user.AppUser;
+import it.epicode.progetto_settimanale_finale.auth.user.AppUserService;
+import it.epicode.progetto_settimanale_finale.auth.user.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

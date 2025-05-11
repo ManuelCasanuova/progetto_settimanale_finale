@@ -1,5 +1,6 @@
 package it.epicode.progetto_settimanale_finale.eventi;
 
+import it.epicode.progetto_settimanale_finale.auth.user.AppUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
